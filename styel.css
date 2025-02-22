@@ -11,3 +11,47 @@
 .bor{
     border: solid 0.5px #ebebeb;
 }
+ 
+
+
+/* تغییر رنگ دکمه آکاردئون */
+.accordion-button {
+    background-color: white; /* تغییر رنگ زمینه به سفید */
+    color: black; /* تغییر رنگ متن به سیاه (یا هر رنگ دیگری که می‌خواهید) */
+  }
+  
+  /* تغییر رنگ دکمه آکاردئون وقتی باز است */
+  .accordion-button:not(.collapsed) {
+    background-color: white; /* تغییر رنگ زمینه به سفید */
+    color: black; /* تغییر رنگ متن به سیاه */
+  }
+  
+  /* تغییر رنگ دکمه آکاردئون هنگام hover (اختیاری) */
+  .accordion-button:hover {
+    background-color: #f8f9fa; /* تغییر رنگ زمینه هنگام hover */
+  }
+
+
+
+   /* تغییر رنگ دکمه آکاردئون */
+   .accordion-button {
+    background-color: rgb(61, 67, 255);
+    color: black;
+  }
+
+  /* تغییر رنگ دکمه آکاردئون وقتی باز است */
+  /* .accordion-button:not(.collapsed) {
+    background-color: rgb(86, 255, 52);
+    color: black;
+  } */
+
+  /* تغییر رنگ کل آکاردئون وقتی فعال است */
+  .accordion-item.active {
+    background-color: #ff4d4d; /* خاکستری کم‌رنگ */
+  }
+
+
+  .accordion-button:focus {
+    outline: none; /* حذف outline */
+    box-shadow: none; /* حذف سایه (اختیاری) */
+  }
