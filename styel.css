@@ -34,10 +34,10 @@
 
 
    /* تغییر رنگ دکمه آکاردئون */
-   .accordion-button {
+   /* .accordion-button {
     background-color: rgb(61, 67, 255);
     color: black;
-  }
+  } */
 
   /* تغییر رنگ دکمه آکاردئون وقتی باز است */
   /* .accordion-button:not(.collapsed) {
