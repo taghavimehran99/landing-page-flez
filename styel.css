@@ -54,4 +54,15 @@
   .accordion-button:focus {
     outline: none; /* حذف outline */
     box-shadow: none; /* حذف سایه (اختیاری) */
+    
   }
+
+.hed-nav{
+  z-index: 10;
+}
+
+
+.faq{
+
+  z-index: 0;
+}
