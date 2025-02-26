@@ -1,20 +1,68 @@
 @font-face {
-  font-family: font-one;
-  src: url(./font/vazir-font-v16.1.0/Vazir-Light.woff2) format("woff2");
+  font-family: font-vazir;
+  src: url(./font/font/vazir-font-v16.1.0/Vazir-Bold.woff2) format("woff2");
   font-weight: normal;
   font-style: normal;
 
 }
 @font-face {
-  font-family: font-two;
-  src: url(./font/nahid/Nahid.woff2) format("woff2");
+  font-family: font-nahed;
+  src: url(./font/font/nahid/Nahid.woff2) format("woff2");
   font-weight: normal;
   font-style: normal;
 
 }
+
+@font-face {
+  font-family:font-one;
+  src: url(./font/iranyekan-extrabold.woff)format("woff");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: font-two;
+  src: url(./font/iranyekan-medium.woff)format('woff');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: font-three;
+  src: url(./font/iranyekan-regular.woff)format('woff');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: font-four;
+  src: url(./font/peyda-extrabold.woff)format('woff');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: font-five;
+  src: url(./font/peyda-medium.woff)format('woff');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
 body{
 
-  font-family: font-one;
+  font-family: font-four;
 }
 
 .icon-sa{
