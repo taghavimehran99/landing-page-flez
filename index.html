@@ -21,17 +21,18 @@
     <link rel="stylesheet" href="./styel.css" />
   </head>
   <body>
-    <header class="mb-5 position-sticky top-0 shadow-sm hed-nav bg-white" style="font-size: 14px;">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg bg-white ">
+    <header class="mb-5 position-sticky top-0 shadow-sm hed-nav bg-white" style="font-size: 14px; height: 65px;">
+      <div class="container h-100">
+        <nav class="navbar navbar-expand-lg bg-white h-75">
           <div class="container-fluid">
             <a class="navbar-brand" href="https://my.irfarabi.com/Loading?redirect=/"
               ><img class="d-none d-lg-block" src="./imags/لوگو فارابی.jpeg" style="width: 150px;" alt=""
             /></a>
             <a class="navbar-brand" href="https://my.irfarabi.com/Loading?redirect=/"
-              ><img class="d-inlin-block d-lg-none pb-2" src="./imags/لوگوی-کارگزاری-فارابی.png" style="width: 90px;  position: fixed; top:0px; right: 10px;" alt=""
+              ><img class="d-inlin-block d-lg-none pb-2 ms-4 " src="./imags/لوگوی-کارگزاری-فارابی.png" style="width: 90px;  position: fixed; top:5px; right: 14px;" alt=""
             /></a>
             <button
+            style="position: absolute; display: inline-block; right: 0px; border: 0px;"
               class="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
@@ -40,11 +41,13 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon d-lg-none ms-3 " style="position: absolute; display: inline-block; right: 0px; border: 0px;"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav text-center me-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav text-center me-auto mb-2 mb-lg-0 bg-white bg-md-#">
                 <li class="nav-item dropdown">
+                  <!-- <button type="button" class="btn-close" id="close-btn" aria-controls="navbarSupportedContent"
+                  aria-label="Close"></button> -->
                   <a
                     class="nav-link dropdown text-black"
                     href="#"
@@ -54,7 +57,7 @@
                   >
                     سرمایه گذاری
                   </a>
-                  <ul class="dropdown-menu border-0 rounded-0">
+                  <ul class="dropdown-menu border-0 rounded-0 ">
                     <li><hr class="dropdown-divider " style="background-color: #066137; padding: 0.5px;" /></li>
 
                     <li><a class="dropdown-item d-none d-lg-block border-bottom border-lightgray mb-2 px-1 py-2" href="#">راهکار های سرمایه گذاری</a></li>
@@ -172,10 +175,10 @@
                 market_api%2520profile%2520srvdsk_api%2520tse_profile%2520openid%2520offline_access%26st
                 ate%3Dd7e4b4101a94477e84c43ab877c30062%26code_challenge%3DYXmGsujj4daAMJNQC8C0Rrwwtv6W8r
                 bteHK7fhBoZFc%26code_challenge_method%3DS256%26response_mode%3Dquery%26login
-                _type%3Dpassword%26idp%3Dfarabixo&login_type=password&idp=farabixo" class="btn btn-outline-success me-2  pe-2 ps-2" type="submit">فارابیکسو</a> 
+                _type%3Dpassword%26idp%3Dfarabixo&login_type=password&idp=farabixo" class="d-none d-md-block btn btn-outline-success me-2  pe-2 ps-2" type="submit">فارابیکسو</a> 
                 <a style="font-size: 14px; border-radius: 4px;" href="https://account.irfarabi.com/web/login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallb
                 ack%3Fresponse_type%3Dcode%26client_id%3Dxon-prod%26scope%3Dopenid%2520profile%2520offline_access%26state%3DQ-Hww8g35N5oVvOP3T3YK9GAWvm4W6g_ihSF-D8h3b0%253D%26redirect_uri%3Dhttps%253A%252F%252Fmy.irfarabi.com%252Flogin%252Foauth2%252Fcode%252Ffarabi%26nonce%3Dt2uZT-m_9WSgo995RxfFBYlhi4z0hiWxfI2aYuRHh_0%26referer%3Dhttps%253A%252F%252Fmy.irfarabi.com%252F" 
-                class="btn btn-success me-4  pe-2 ps-2" type="submit">ورود به فارابی زون</a>
+                class=" d-none d-md-block btn btn-success me-4  pe-2 ps-2" type="submit">ورود به فارابی زون</a>
                 
               </form>
             </div>
