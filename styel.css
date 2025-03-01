@@ -144,3 +144,16 @@ body{
 
 
 }
+
+
+.foot-icon{
+  transition: color 0.3s, transform 0.3s
+
+}
+
+
+.foot-icon:hover{
+border-radius: 100%;
+  background-color: #265841;
+  transform: ;
+}
