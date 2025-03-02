@@ -176,5 +176,9 @@ border-radius: 100%;
   color: #29694c;
   
 }
-
-
+.btn-moshaver{
+  color: #066137
+}
+.btn-moshaver-hover{
+  color: #f8f9fa;
+}
