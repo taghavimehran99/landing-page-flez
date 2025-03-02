@@ -68,6 +68,8 @@ body{
   font-family: sans-serif;
 }
 
+
+
 .icon-sa{
     font-size: 60px;
     color: #187c48;
@@ -146,6 +148,10 @@ body{
 }
 
 
+/* hoover styel */   
+
+
+
 .foot-icon{
   transition: color 0.3s, transform 0.3s
 
@@ -158,3 +164,17 @@ border-radius: 100%;
   
   transform: ;
 }
+
+
+.navbar-text{
+ 
+  color: #000000;
+
+}
+.navbar-text:hover{
+
+  color: #29694c;
+  
+}
+
+
